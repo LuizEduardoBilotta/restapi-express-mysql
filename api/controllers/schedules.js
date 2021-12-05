@@ -7,8 +7,6 @@ module.exports = (app) => {
 
   app.post('/schedules', (req, res) => {
     const schedule = req.body;
-    schedules.createSchedule(schedule);
-    res.send();
-
+    schedules.createSchedule(schedule, res);
   })
 }

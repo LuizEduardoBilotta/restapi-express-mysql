@@ -3,7 +3,7 @@ const connectionDB = require('../../config/dataBase');
 
 class Schedules {
 
-  createSchedule(schedule) {
+  createSchedule(schedule, res) {
     console.log('[LOG]: Creating new schedule...')
 
     const createdDate = moment().format('YYYY-MM-DD HH:mm:ss');
@@ -15,8 +15,10 @@ class Schedules {
     connectionDB.query(sql, scheduleHandled, (error, result) => {
       if(error) {
         console.log(`[ERROR]: ${ error }`);
+        res.status(400).send(error);
       } else {
-        console.log('[LOG]: Schedule created with success!' )
+        console.log('[LOG]: Schedule created with success!' );
+        res.status(201).send();
       }
     });
   }
