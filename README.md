@@ -15,7 +15,7 @@
 ## :game_die: Status
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/LuizEduardoBilotta/restapi-express-mysql?style=for-the-badge" alt="Repository size">
-  <img src="https://img.shields.io/github/license/LuizEduardoBilotta/restapi-express-mysql?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/license/LuizEduardoBilotta/restapi-express-mysql?style=for-the-badge" alt="license">
   <img src="https://img.shields.io/github/languages/count/LuizEduardoBilotta/restapi-express-mysql?style=for-the-badge&color=eb152a" alt="Counter Languages">
   <img src="https://img.shields.io/github/last-commit/LuizEduardoBilotta/restapi-express-mysql?style=for-the-badge&color=f50cbb" alt="Last commit">
 </p>
